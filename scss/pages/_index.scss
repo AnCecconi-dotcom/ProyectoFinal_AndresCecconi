@@ -1,0 +1,154 @@
+div.container {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 0px;
+    max-width: 1980px !important;
+    align-items: center;
+
+    section.section {
+        grid-area: 1 / 1 / 3 / 2;
+
+        h1 {
+            color: orange;
+        }
+    }
+
+    aside.aside {
+        grid-area: 1 / 2 / 3 / 3;
+
+        img {
+            object-fit: fill;
+            width: 100%;
+            height: 100%;
+
+        }
+    }
+}
+
+div.contenedor-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../img/fondoBlanco.png);
+    background-repeat: no-repeat;
+
+    img {
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
+        margin-top: 140px;
+
+    }
+
+    h2 {
+        padding-top: 50px;
+    }
+
+    a {
+        padding-top: 30px;
+        margin: 15px;
+
+        button {
+            padding: 10px 40px;
+            border-radius: 50px;
+            border: rgb(189, 189, 189);
+        }
+
+        button:hover {
+            color: orange;
+            text-shadow: -1px -1px 5px rgba(255, 166, 0, 0.652);
+            transition: 0.3s;
+        }
+    }
+
+}
+
+div.container-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row dense;
+    justify-content: center;
+    align-content: center;
+    justify-items: start;
+    align-items: start;
+    grid-template-areas:
+        "aside-2 section-2";
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin-top: 50px;
+
+    .aside-2 {
+        justify-self: start;
+        align-self: center;
+        grid-area: aside-2;
+        width: 100%;
+        height: 75%;
+
+    }
+
+    div.section-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "h3 h3 h3 h3"
+            "p1 p1 p2 p2"
+            "p1 p1 p2 p2"
+            "p3 p3 p4 p4"
+            "p3 p3 p4 p4";
+        justify-self: center;
+        align-self: center;
+        grid-area: section-2;
+        width: 100%;
+        height: 60%;
+
+        div.h3 {
+            grid-area: h3;
+            align-items: end;
+        }
+
+        div.p1 {
+            grid-area: p1;
+            padding: 5px;
+            background-color: rgb(235, 235, 235);
+            text-align: center;
+            justify-self: center;
+            align-self: center;
+        }
+
+        div.p2 {
+            grid-area: p2;
+            padding: 5px;
+            justify-self: center;
+            align-self: center;
+        }
+
+        div.p3 {
+            grid-area: p3;
+            padding: 5px;
+            justify-self: center;
+            align-self: center;
+        }
+
+        div.p4 {
+            grid-area: p4;
+            padding: 5px;
+            background-color: rgb(235, 235, 235);
+            justify-self: center;
+            align-self: center;
+        }
+        p{
+            padding: 45px;
+        }
+    }
+}
