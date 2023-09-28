@@ -138,6 +138,17 @@ footer {
     color: orange;
     text-decoration: none; }
 
+section div {
+  margin: 50px 10px 100px 10px;
+  padding: 20px; }
+  section div h1, section div .h1 {
+    padding-bottom: 20px; }
+  section div p {
+    padding-bottom: 25px; }
+
+section .separador {
+  border-right: solid; }
+
 /*!
    * Bootstrap  v5.3.2 (https://getbootstrap.com/)
    * Copyright 2011-2023 The Bootstrap Authors
