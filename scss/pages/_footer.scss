@@ -12,3 +12,38 @@ footer{
         text-decoration: none;
     }
 }
+
+@media (max-width:1050px){
+    footer{
+        height: 250px;
+        display: flex;
+
+        div.div1{ 
+            display: none;
+        }
+
+        div.div2{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+@media (max-width:550px){
+    footer{
+        height: 250px;
+        display: flex;
+
+        div.div1{ 
+            display: none;
+        }
+
+        div.div2{
+            display: flex;
+            align-items: center;
+        }
+
+        div.div4{
+            display: none;
+        }
+    }
+}

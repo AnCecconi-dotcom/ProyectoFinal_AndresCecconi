@@ -181,6 +181,28 @@ footer {
     color: orange;
     text-decoration: none; }
 
+@media (max-width: 1050px) {
+  footer {
+    height: 250px;
+    display: flex; }
+    footer div.div1 {
+      display: none; }
+    footer div.div2 {
+      display: flex;
+      align-items: center; } }
+
+@media (max-width: 550px) {
+  footer {
+    height: 250px;
+    display: flex; }
+    footer div.div1 {
+      display: none; }
+    footer div.div2 {
+      display: flex;
+      align-items: center; }
+    footer div.div4 {
+      display: none; } }
+
 section div {
   margin: 50px 10px 100px 10px;
   padding: 20px; }
