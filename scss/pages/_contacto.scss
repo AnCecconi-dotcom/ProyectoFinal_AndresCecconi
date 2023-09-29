@@ -15,11 +15,45 @@ div.container-contacto {
     width: 100%;
     height: 100%;
 
+
     .div-left {
         grid-area: div-left;
+        padding-right: 200px;
     }
 
     .div-right {
         grid-area: div-right;
+        border-radius: 15px;
+        background: linear-gradient(to bottom, rgb(232, 232, 232), white);
+
+        div{
+            margin: 0px;
+            padding: 0px;
+
+            input{
+                border-radius: 2px;
+            }
+            select{
+                border-radius: 2px;
+            }
+            textarea{
+                border-radius: 2px;
+            }
+            
+        }
+
+        .submit{
+                padding: 10px 40px;
+                border-radius: 50px;
+                border: rgb(189, 189, 189);
+                text-decoration: none;
+                
+            }
+    
+            .submit:hover {
+                color: orange;
+                text-shadow: -1px -1px 5px rgba(255, 166, 0, 0.652);
+                transition: 0.3s;
+            }
     }
 }
