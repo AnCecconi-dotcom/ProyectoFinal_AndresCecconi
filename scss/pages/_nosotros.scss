@@ -16,3 +16,20 @@ section{
         border-right: solid;
     }
 }
+
+@media (max-width: 1230px){
+    section{
+        display: flex;
+        flex-direction: column!important;
+
+        img.mh-100.mw-100{
+            width: 70%!important;
+            height: 50%!important;
+        }
+
+        .separador{
+            border-right: none;
+            border-bottom: solid;
+        }
+    }
+}

@@ -192,6 +192,17 @@ section div {
 section .separador {
   border-right: solid; }
 
+@media (max-width: 1230px) {
+  section {
+    display: flex;
+    flex-direction: column !important; }
+    section img.mh-100.mw-100 {
+      width: 70% !important;
+      height: 50% !important; }
+    section .separador {
+      border-right: none;
+      border-bottom: solid; } }
+
 div.container-productos {
   display: grid;
   grid-template-columns: 1fr 1fr;
