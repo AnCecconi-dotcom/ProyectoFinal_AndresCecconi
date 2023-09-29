@@ -308,9 +308,8 @@ div.container-productos-s2 {
   div.container-productos-s2 {
     display: flex !important;
     flex-direction: column; }
-    div.container-productos-s2 div.div-left img {
-      width: 0% !important;
-      height: 0% !important; }
+    div.container-productos-s2 div.div-left {
+      display: none; }
     div.container-productos-s2 div.div-right {
       padding: 50px; } }
 
@@ -522,9 +521,8 @@ div.container-contacto {
     flex-direction: column-reverse;
     align-items: center;
     margin: 5px; }
-    div.container-contacto div.div-left img {
-      width: 0% !important;
-      height: 0% !important; } }
+    div.container-contacto div.div-left {
+      display: none; } }
 
 /*!
    * Bootstrap  v5.3.2 (https://getbootstrap.com/)

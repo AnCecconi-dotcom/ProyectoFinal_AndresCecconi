@@ -115,10 +115,7 @@ div.container-productos-s2 {
         flex-direction: column;
 
         div.div-left{
-            img{
-                width: 0%!important;
-                height: 0%!important;
-            }
+           display: none;
         }
 
         div.div-right{
