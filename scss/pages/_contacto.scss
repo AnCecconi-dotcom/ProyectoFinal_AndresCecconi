@@ -56,3 +56,20 @@ div.container-contacto {
             }
     }
 }
+
+@media (max-width: 1230px){
+    div.container-contacto{
+        display: flex!important;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 5px;
+
+        div.div-left{
+            img{
+                width: 0%!important;
+                height:0%!important;
+            }
+        }
+       
+    }
+}

@@ -494,6 +494,16 @@ div.container-contacto {
       text-shadow: -1px -1px 5px rgba(255, 166, 0, 0.652);
       transition: 0.3s; }
 
+@media (max-width: 1230px) {
+  div.container-contacto {
+    display: flex !important;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 5px; }
+    div.container-contacto div.div-left img {
+      width: 0% !important;
+      height: 0% !important; } }
+
 /*!
    * Bootstrap  v5.3.2 (https://getbootstrap.com/)
    * Copyright 2011-2023 The Bootstrap Authors
