@@ -22,13 +22,13 @@ div.container-clientes {
         grid-area: integrity;
         background-color: rgb(220, 220, 220);
         border-radius: 10px;
-        
-        p{
+
+        p {
             padding: 25px 0px 0px 25px;
         }
 
-        img{
-            padding: 25px 0px 0px 25px; 
+        img {
+            padding: 25px 0px 0px 25px;
         }
     }
 
@@ -37,12 +37,12 @@ div.container-clientes {
         background-color: rgb(220, 220, 220);
         border-radius: 10px;
 
-        p{
+        p {
             padding: 25px 0px 0px 25px;
         }
 
-        img{
-            padding: 25px 0px 0px 25px; 
+        img {
+            padding: 25px 0px 0px 25px;
         }
     }
 
@@ -51,12 +51,12 @@ div.container-clientes {
         background-color: rgb(220, 220, 220);
         border-radius: 10px;
 
-        p{
+        p {
             padding: 25px 0px 0px 25px;
         }
 
-        img{
-            padding: 25px 0px 0px 25px; 
+        img {
+            padding: 25px 0px 0px 25px;
         }
     }
 
@@ -65,12 +65,12 @@ div.container-clientes {
         background-color: rgb(220, 220, 220);
         border-radius: 10px;
 
-        p{
+        p {
             padding: 25px 0px 0px 25px;
         }
 
-        img{
-            padding: 25px 0px 0px 25px; 
+        img {
+            padding: 25px 0px 0px 25px;
         }
     }
 
@@ -79,12 +79,12 @@ div.container-clientes {
         background-color: rgb(220, 220, 220);
         border-radius: 10px;
 
-        p{
+        p {
             padding: 25px 0px 0px 25px;
         }
 
-        img{
-            padding: 25px 0px 0px 25px; 
+        img {
+            padding: 25px 0px 0px 25px;
         }
     }
 
@@ -93,12 +93,169 @@ div.container-clientes {
         background-color: rgb(220, 220, 220);
         border-radius: 10px;
 
-        p{
+        p {
             padding: 25px 0px 0px 25px;
         }
 
-        img{
-            padding: 25px 0px 0px 25px; 
+        img {
+            padding: 25px 0px 0px 25px;
+        }
+    }
+}
+
+@media (max-width: 1230px) {
+    div.container-clientes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row dense;
+        justify-content: center;
+        align-content: center;
+        justify-items: start;
+        align-items: start;
+        align-items: stretch;
+        grid-template-areas:
+            "integrity zurich"
+            "galicia alba"
+            "meridional rocca";
+        width: 100%;
+        height: 100%;
+
+        div.integrity {
+            grid-area: integrity;
+
+            img{
+                width: 25%!important;
+                height: 30%!important;
+            }
+        }
+
+        div.zurich {
+            grid-area: zurich;
+
+            img{
+                width: 20%!important;
+                height: 20%!important;
+            }
+        }
+
+        div.galicia {
+            grid-area: galicia;
+
+            img{
+                width: 20%!important;
+                height: 30%!important;
+            }
+        }
+
+        div.alba {
+            grid-area: alba;
+
+            img{
+                width: 20%!important;
+                height: 30%!important;
+            }
+        }
+
+        div.meridional {
+            grid-area: meridional;
+
+            img{
+                width: 20%!important;
+                height: 30%!important;
+            }
+        }
+
+        div.rocca {
+            grid-area: rocca;
+
+            img{
+                width: 20%!important;
+                height: 30%!important;
+            }
+        }
+    }
+}
+
+@media (max-width: 890px){
+    div.container-clientes {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row dense;
+        justify-content: center;
+        align-content: center;
+        justify-items: start;
+        align-items: start;
+        align-items: stretch;
+        grid-template-areas:
+            "integrity"
+            "zurich"
+            "galicia" 
+            "alba"
+            "meridional"
+             "rocca";
+        width: 100%;
+        height: 100%;
+
+        div.integrity {
+            grid-area: integrity;
+
+            img{
+                width: 30%!important;
+                height: 30%!important;
+            }
+        }
+
+        div.zurich {
+            grid-area: zurich;
+
+            img{
+                width: 25%!important;
+                height: 20%!important;
+            }
+        }
+
+        div.galicia {
+            grid-area: galicia;
+
+            img{
+                width: 25%!important;
+                height: 30%!important;
+            }
+        }
+
+        div.alba {
+            grid-area: alba;
+
+            img{
+                width: 25%!important;
+                height: 30%!important;
+            }
+        }
+
+        div.meridional {
+            grid-area: meridional;
+
+            img{
+                width: 25%!important;
+                height: 30%!important;
+            }
+        }
+
+        div.rocca {
+            grid-area: rocca;
+
+            img{
+                width: 25%!important;
+                height: 30%!important;
+            }
         }
     }
 }
